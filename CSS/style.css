@@ -15,8 +15,23 @@ justify-content: space-between;
 align-items: center;
 width: 100%;
 }
-header>nav>ul>li{
-    display: none;
+.fa-bars{
+    color: black;
+}
+header  ul{
+    display:none;
+    list-style-type: none;
+    padding: 0;
+    padding-right: 15px;
+}
+header>nav>ul>li>a {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 20px;
+    text-decoration: none;
+    color: black;
 }
 header>nav>img{
     height:50px;

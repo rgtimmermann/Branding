@@ -11,13 +11,16 @@
 <body>
     <header>
         
-        <nav>
+        <nav class="topnav">
             <img src="./IMG/LOGO_PAVO.svg" alt="Home">
-           <ul>
-               <li>VORES SERVICES</li>
-               <li>KLIENTER</li>
-               <li>OM OS</li>
-           </ul>
+            <ul id="myLinks">
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">KLIENTER</a></li>
+                <li><a href="#">OM OS</a></li>
+            </ul>
+           <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
         </nav>
     </header>
     <main>
@@ -28,5 +31,15 @@
     <footer>
 
     </footer>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display ==="block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
 </body>
 </html>
