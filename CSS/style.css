@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     margin:0;
+    max-width:100%;
 }
 
 /* Header */
@@ -112,7 +113,7 @@ Klassen "overflow" er for at lave skarpe kanter på baggrundsbilledet*/
 
 .divider{
     margin: 1rem 0 1rem 0;
-    max-width:100vw;
+    max-width:100%;
 }
 
 h1{
@@ -163,7 +164,7 @@ h2{
     background-size:cover;
     background-position: center;
     height:80vh;
-    width:100vw;
+    max-width:100vw;
     margin:2rem 0 2rem 0;
 }
 #SoMeText{
