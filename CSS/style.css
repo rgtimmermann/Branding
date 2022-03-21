@@ -36,7 +36,7 @@ header>nav>ul>li>a {
     text-decoration: none;
     color: black;
 }
-header>nav>img{
+header>nav>a>img{
     height:50px;
     padding-left:10px;
 }
@@ -193,6 +193,7 @@ h1{
 
 }
 /* Om os */
+
 /* Section 1 - fællesbillede */
 .fællesbillede {
     height: 35%;
@@ -209,6 +210,7 @@ h1{
 }
 .pavomedia {
     font-size: 35px;
+    color:black;
     text-align: center;
     margin: 0 4% 4% 0;
     color: #000000;
@@ -237,12 +239,60 @@ h1{
 }
 
 /* Section 2 - hver især */
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:40px;
+    text-align:center;
+}
+.hverIsær{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4%;
+    row-gap:4%;
+    grid-template-areas:
+    "sophie rasmus"
+    "josephine nicklas";
+    margin: 3rem 10% 1rem 10%;
+}
+
 .portræt {
-    height: 25%;
-    width: 20%;
+    width: 70%;
+}
+h3{
+    font-size:25px;
 }
 .stilling {
-    font-size: 15px;
+    padding-top:1rem;
+    font-size: 18px;
+    text-align:center;
+}
+.stillingBox{
+    background-color:#ffffff;
+    margin: 1rem 1rem 1rem 1rem;
+    padding:1rem;
+}
+
+.sophie,.rasmus,.josephine,.nicklas{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color:#f0f0f0;
+    text-align:center;
+    width:100%;
+}
+
+/* Grid specifikationer */
+.sophie{
+    grid-area:sophie;
+}
+.rasmus{
+    grid-area:rasmus;
+}
+.josephine{
+    grid-area:josephine;
+}
+.nicklas{
+    grid-area:nicklas;
 }
 
 
