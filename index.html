@@ -10,19 +10,18 @@
 </head>
 <body>
     <header>
-        <nav class="topnav">
-          <a href="index.html">
-            <img src="./IMG/LOGO_PAVO.svg" alt="Home">
-          </a>
-          <ul id="myLinks">
-            <li><a href="#">SERVICES</a></li>
-            <li><a href="#">KLIENTER</a></li>
-            <li><a href="./omos.html">OM OS</a></li>
-          </ul>
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-          </a>
-        </nav>
+      <nav class="topnav">
+        <a href="index.html">
+          <img src="./IMG/LOGO_PAVO.svg" alt="Home">
+        </a>
+        <i class="fa fa-bars"></i>
+        <ul id="myLinks">
+          <li><a href="#">SERVICES</a></li>
+          <li><a href="omos.html">KLIENTER</a></li>
+          <li><a href="./omos.html">OM OS</a></li>
+        </ul>
+    
+      </nav>
     </header>
     <main>
 
@@ -74,15 +73,15 @@
     <footer>
 
     </footer>
-    <script>
-        function myFunction() {
-          var x = document.getElementById("myLinks");
-          if (x.style.display ==="block") {
-            x.style.display = "none";
-          } else {
-            x.style.display = "block";
-          }
-        }
-        </script>
+   
+
+<script>
+  const navbarToggle = () => {
+  const nav = document.querySelector('#myLinks');
+  nav.classList.toggle('#myLinks');
+  }
+  document.querySelector('.fa-bars').addEventListener('click', navbarToggle);
+</script>
+
 </body>
 </html>
