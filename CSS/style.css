@@ -294,6 +294,24 @@ p, .os{
     
 }
 
+/*---------------------- Footer ---------------------------------------  */
+
+footer{
+    background-color:#f0f0f0;
+    width:100%;
+}
+footer img{
+    height:50px;
+    margin: 0 1rem 0 1rem;
+}
+footer ul{
+    display:flex;
+    justify-content: center;
+    list-style-type: none;
+    
+
+}
+
 /*---------------------- Media Query for Desktop ---------------------------*/
 
 @media screen and (min-width:700px){
