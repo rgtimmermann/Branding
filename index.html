@@ -16,16 +16,17 @@
       <a href="index.html">
         <img src="./IMG/LOGO_PAVO.svg" alt="Home">
       </a>
-      <ul id="myLinks">
+      <i class="fas fa-bars"></i>
+    </nav>
+    <nav class="mainnav">
+      <ul>
         <li class="border"><a href="#">SERVICES</a></li>
         <li><a href=>KLIENTER</a></li>
         <li><a href="./omos.html">OM OS</a></li>
       </ul>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
     </nav>
   </header>
+
   <main>
 
     <!-- Hero -->
@@ -72,9 +73,7 @@
     <!-- Influencers and SoMe -->
     <section id="SoMe">
       <h2 id="IFSoMe">INFLUENCERS <br> & SoMe</h2>
-      <p id="SoMeText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis iure neque quae, expedita
-        accusantium adipisci quasi corporis, enim facere totam, pariatur quam consequuntur itaque dolorum illum
-        doloremque tempore molestiae corrupti?</p>
+      <p id="SoMeText">Mangler du hjælp eller vejledning til de sociale medier, eller står du, og mangler den rigtige influencer til, at brande din virksomhed?</p>
       <a class="CTAgray" href="#">GÅ TIL</a>
       <div></div>
       <div></div>
@@ -95,7 +94,17 @@
     <hr class="tynd">
       </hr> <!-- Linjen mellem sektionerne -->
 
+     
+
   </main>
+
+  <script>
+    const navbarToggle = () => {
+    const nav = document.querySelector('.mainnav');
+    nav.classList.toggle('toggleShow');
+    }
+    document.querySelector('.fa-bars').addEventListener('click', navbarToggle);
+    </script>
 
   <footer>
     <ul>
@@ -110,17 +119,20 @@
     
   </footer>
 
+  
 
-  <script>
+<!--   <script>
     function myFunction() {
-      var x = document.getElementById("myLinks");
+      var x = document.getElementById(".mainnav");
       if (x.style.display === "block") {
         x.style.display = "none";
       } else {
         x.style.display = "block";
       }
     }
-  </script>
+  </script> -->
+
+
 
 </body>
 
