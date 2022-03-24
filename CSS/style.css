@@ -301,7 +301,7 @@ h2{
     justify-content:center;
     align-items:center;
 }
-p, .os{
+.os, #footertekst{
     font-size: 15px;
     text-align: center;
     margin: 2%;
@@ -321,6 +321,334 @@ p, .os{
     margin: 3rem 10% 1rem 10%;
     
 }
+/* --------------------- Services --------------------------------------- */
+
+#HeroLogo{
+    max-width:210px;
+    display:flex;
+    margin: 0 auto;
+    padding-top: 33vh;
+    color:black;
+}
+
+#enLosning{
+    display: block;
+    position: absolute;
+    max-width: 100%;
+    top: 15vh;
+    color: white;
+    font-size: 26px;
+    text-align: center;
+    left: 0%;
+    right: 0%;
+}
+#pavoKanTilbyde{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    text-align: left;
+    color: white;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 25vh;
+    left: 10%;
+    right: 10%;
+}
+.whitebox{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.whiteboxcontent{
+    box-sizing: border-box;
+    max-width: 100vw;
+    height: 30vh;
+    background-color: rgba(255, 255, 255, 0.90);
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    position:absolute;
+    top: 50vh;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#sendEnMailLead{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-weight: lighter;
+    color: black;
+}
+#startSamarbejdet{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-family: 'Gill Sans Nova';
+    font-size: 25px;
+    font-weight: bolder;
+    color: black;
+}
+#sendEnMail{
+    color:black;
+    text-align:center;
+    font-weight: lighter;
+    padding: 10px 20px 10px 20px;
+    margin: 20px;
+    font-family: 'Gill Sans Nova';
+    font-size: 15px;
+}
+#heroCTAA{
+    border:2px solid;
+    color:#ffffff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+    font-size:20px;
+    border-color:#ff8900;
+    background-color:#ff8900;
+    border-radius:15px;
+    text-decoration:none;
+    cursor: pointer;
+    width: 80%;
+    text-align:center;
+    margin:0 auto;
+    padding: 4px;
+    margin-bottom: 20px;
+}
+#seVoresTilbud{
+    top: 92vh;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    position: absolute;
+    font-family: 'gill sans nova';
+    font-size: 15px;
+}
+.fa-angle-double-down{
+    color: white;
+    position: absolute;
+    text-align: center;
+    font-size:25px;
+    z-index: 1 !important;
+}
+.tabel{
+    font-family: 'gill sans nova';
+}
+.tabel h2{
+    display: flex;
+    justify-content: center;
+}
+.tabel h3{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+    margin: 10px 170px 10px 170px;
+}
+.table{
+    display: fixed;
+    justify-content: center;
+    margin: 0 auto;
+    height: 70vh;
+    border: solid 2px #707070;
+    table-layout: fixed;
+    border-collapse: collapse;
+    box-shadow: 7px 6px 10px #707070 ;
+}
+.table td, th{
+    border: solid 1px #707070;
+    font-family: 'gill sans nova'; 
+}
+.table th{
+    font-size: 20px;
+    color: #FF8900;
+    padding: 5px;
+}
+.table td{
+    font-size: 15px;
+    font-weight: lighter;
+    color: black;
+    padding: 10px;
+    padding-right: 50px;
+    white-space: nowrap;
+}
+.table img{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    height: 30px;
+    padding-left: 40px;
+}
+#skemaPris{
+    font-size: 15px;
+    font-weight: bolder;
+    color: #FF8900;
+    padding: 5px;
+}
+#soMeTilbudbtn{
+    display: flex;
+    justify-content: center;
+    max-width:250px;
+    border:2px solid #ff8900;
+    color:#ffffff;
+    font-family:'Gill Sans Nova';
+    font-weight:lighter;
+    font-size:15px;
+    background-color:#ff8900;
+    border-radius:15px;
+    text-decoration:none;
+    cursor: pointer;
+    text-align:center;
+    margin: 10px auto;
+    padding: 5px 10px;
+}
+#webTilbudbtn{
+    display: flex;
+    justify-content: center;
+    max-width:250px;
+    border:2px solid #ff8900;
+    color:#ffffff;
+    font-family:'Gill Sans Nova';
+    font-weight:lighter;
+    font-size:15px;
+    background-color:#ff8900;
+    border-radius:15px;
+    text-decoration:none;
+    cursor: pointer;
+    text-align:center;
+    margin: 10px auto;
+    padding: 5px 10px;
+}
+#personalTilbudbtn{
+    display: flex;
+    justify-content: center;
+    max-width:250px;
+    border:2px solid #ff8900;
+    color:#ffffff;
+    font-family:'Gill Sans Nova';
+    font-weight:lighter;
+    font-size:15px;
+    background-color:#ff8900;
+    border-radius:15px;
+    text-decoration:none;
+    cursor: pointer;
+    text-align:center;
+    margin: 10px auto;
+    padding: 5px 10px;
+}
+#everythingTilbudbtn{
+    display: flex;
+    justify-content: center;
+    max-width:250px;
+    border:2px solid #ff8900;
+    color:#ffffff;
+    font-family:'Gill Sans Nova';
+    font-weight:lighter;
+    font-size:15px;
+    background-color:#ff8900;
+    border-radius:15px;
+    text-decoration:none;
+    cursor: pointer;
+    text-align:center;
+    margin: 10px auto;
+    padding: 5px 10px;
+}
+.tyk{
+    width: 20%;
+    background-color: #707070;
+    border: 3px solid #707070;
+    margin-top: 1%;
+    clear: both;
+}
+.tynd{
+    height: 5%;
+    width: 100%;
+    background-color: #707070;
+    border: 2px solid #707070;
+    margin-bottom: 3%;
+}
+.tykto, .tykkto{
+    width: 40%;
+    background-color: #707070;
+    border: 3px solid #707070;
+    margin-top: 1%;
+    clear: both;
+}
+.tyndto, .tynddto{
+    height: 5%;
+    width: 100%;
+    background-color: #707070;
+    border: 2px solid #707070;
+    margin-bottom: 3%;
+}
+
+.tilbud {
+    background-image: url(../IMG/abcd.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    width: 300px;
+    height: fit-content;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border: 2px solid #707070;
+    box-shadow: 5px 5px 5px#707070;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tilbud h2 {
+    font-size: 25px;
+    font-family: 'gill sans nova';
+}
+.tilbud h3{
+    color: white;
+    font-size: 25px;
+    font-family: 'Gill Sans Nova';
+}
+.tilbud h4{
+    display: none;
+    color: white;
+    font-size: 15px;
+    font-family: 'Gill Sans Nova';
+}
+.tilbud > ul{
+    padding: 10px 0 0 0;
+    list-style-type: none;
+    color: white;
+}
+.tilbud ul > li{
+    padding: 10px;
+}
+.tilbudet>ul>li>p{
+    font-weight: lighter;
+    font-size: 15px;
+    text-align: left;
+}
+.tilbud .CTA{
+    width: 80%;
+    border:2px solid #707070;
+    color:#ffffff;
+    font-weight:bold;
+    font-size:20px;
+    background-color:#707070;
+    border-radius:15px;
+    text-decoration:none;
+    cursor: pointer;
+    text-align:center;
+    padding: 5px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
 
 /*---------------------- Footer ---------------------------------------  */
 
@@ -479,7 +807,6 @@ footer ul{
     h2{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size:40px;
-        /* text-align:center; */
     }
     .hverIsær{
         display:grid;
@@ -531,6 +858,79 @@ footer ul{
     .nicklas{
         grid-area:nicklas;
     }
+/* ----Services------ */
+    #enLosning{
+        display: block;
+        position: absolute;
+        justify-content: flex-start;
+        max-width: 50%;
+        top: 35vh;
+        font-size: 40px;
+    }
+    #pavoKanTilbyde{
+        display: block;
+        max-width: 30%;
+        font-size: 20px;
+        top: 45vh;
+        margin: 10px;
+    }
+    #seVoresTilbud{
+        margin: 0 auto;
+    }
+    .whitebox{
+        display: flex;
+        justify-content: flex-end;
+        float: right;
+        max-width: 50%;
+    }
+    .whiteboxcontent{
+        width: 40vw;
+        height: 50vh;
+        top: 35vh;
+    }
+    .table{
+        margin-bottom: 50px;
+    }
+    #voresTilbud {
+        position: relative; 
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    #voresTilbud:before {    
+          content: "";
+          background-image: url(../IMG/LOGO_PAVO.svg);
+          background-size: contain;
+          background-repeat: no-repeat;
+          position: absolute;
+          top: 0px;
+          right: 0px;
+          bottom: 0px;
+          left: 25vw;
+          opacity: 0.50;
+    }
+    .tilbud{
+        height: fit-content;
+        position: relative;
+    }
+    .tilbud h4{
+        display: flex;
+    }
 
-
+}
+@media screen and (max-width:1024px){
+    .tabel{
+        display: none;
+    }
+}
+@media screen and (max-width:700px){
+    .tykkto{
+        display: none;
+    }
+    .tynddto{
+        display: none;
+    }
 }
