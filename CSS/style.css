@@ -387,7 +387,21 @@ footer ul{
         color:orange;
     }
     /* ---------------------- Slideshow -------------------------------- */
-
+    #SoMe{
+        height:90vh;
+        width:100%;
+        margin:2rem 0 2rem 0;
+    }
+    #soMeh2 {
+        font-size: 70px;
+    }
+    #soMeText {
+        font-size: 25px;
+    }
+    .CTAgray{
+       margin-left:18vw;
+       margin-bottom:12%;
+    }
     /* ---------------------------- HERO-------------------------------------------- */
     #HeroLogo{
         padding:0;
