@@ -222,6 +222,24 @@ h1{
     margin-bottom: 10%;
 
 }
+    /*-------------------------- Instragram feed ----------------------------------------------------*/
+    .instaVideo {
+        width: 60%;
+        display: block;
+        margin: 0 auto;
+    }
+    #planlæg {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size:25px;
+        text-align:center;
+        margin:1rem 1rem 1rem 1rem;
+    }
+    .instagram {
+        font-size: 15px;
+        text-align: center;
+        margin: 3%;
+        margin-top: 1%;
+    }
 
 /*---------------------- Om Os siden ------------------------------------------------------------ */
 
@@ -752,9 +770,23 @@ footer ul{
     .overflow{
         height:90vh;
     }
-    
 
-        /* Om os */
+  /* --------------------------------- Insta feed ----------------------------------- */
+  .instaVideo {
+    float: left;
+    width: 20%;
+    margin-left: 20%;
+    clear: both;
+}
+#planlæg {
+    font-size: 40px;
+    margin-top: 3%;
+}
+.instagram {
+    font-size: 20px;
+    margin: 15% 15% 0 50%;
+}
+/* ---------------------------- Om os --------------------------------------------------------*/
 
     /* Section 1 - fællesbillede */
     .fllesbillede {
