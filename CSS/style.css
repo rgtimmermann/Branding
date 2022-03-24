@@ -39,27 +39,34 @@
 }
 .toggleShow{
     display: flex;
-    width:100%;
+    position:absolute;
+    margin-top:90px;
     color:orange;
     list-style-type: none;
     z-index:1;
+    
 }
 header>nav>ul {
     display:flex;
+    flex-direction: column;
     align-items:center;
     list-style-type: none;
     text-decoration:none;
     color: black;
-   
+    width:100vw;
+    padding:0;
+    background-color:#ffffff;
 }
 .mainnav>ul>li{
     border:unset;
-    padding:0 10px 0 10px;
+    padding:20px 10px 20px 10px;
+    
 }
 .mainnav>ul>li>a{
     text-decoration:none;
     color: black;
     white-space: nowrap;
+    background-color:#ffffff;
     
 }
 header>nav>a>img{
@@ -368,7 +375,17 @@ footer ul{
         display: flex;
         align-items: center;
     }
-    
+    header>nav>ul {
+        display:flex;
+        flex-direction: row;
+        align-items:center;
+        list-style-type: none;
+        text-decoration:none;
+        color: black;
+        width:unset;
+    }
+
+
     .fa-bars{
         display:none !important;
         color:orange;
