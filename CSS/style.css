@@ -183,38 +183,40 @@ h1{
 
 /*---------------------- INFLUENCERS & SOME (frontpage)---------------------------------------------*/
 
-.IFSoMe{
+#soMeh2{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size:25px;
     font-weight:bold;
-    color:#000000; /* Skift til hvid */ 
-    padding:3rem 0 2rem 2rem;
+    color:#ffffff; 
+    padding: 5% 0 2% 4%;
     text-align: left;
-    
-
 }
-/* #SoMe{
-    background-image: url(../IMG/soph.png);
+ #SoMe{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    background-image: url(../IMG/influencerSoMe.png);
     background-size:cover;
     background-position: center;
-    height:80vh;
-    max-width:100vw;
+    height:40vh;
+    width:100%;
     margin:2rem 0 2rem 0;
-} */
-.SoMeText {
+} 
+#soMeText {
     font-family: 'Gill Sans', 'Gill Sans MT', NOVA light, 'Trebuchet MS', sans-serif;
     font-size: 15px;
-    color:#000000; /* Skift til hvid */ 
-    width:12rem;
-    padding-left: 2rem;
+    color:#ffffff;
+    width:45%;
+    padding-left: 4%;
 }
 .CTAgray{
-    display:flex;
+    
     border:2px solid;
     color:#ffffff; 
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight:bold;
     font-size:15px;
+    text-align:center;
     border-color:#3B4045;
     background-color:#3B4045;
     border-radius:15px;
@@ -222,15 +224,11 @@ h1{
     width: 15rem;
     padding: 0.6rem 2rem 0.6rem 2rem;
     justify-content:center;
-    margin:0 auto;
-    margin-top:10rem;
+    margin-left:20vw;
+    margin-bottom: 10%;
 
 }
-/*
-#SoMe {
-    display: none;
-} 
-*/
+
 /*---------------------- Om Os siden ------------------------------------------------------------ */
 
 .teametHeading {
@@ -390,13 +388,27 @@ footer ul{
         color: black;
         width:unset;
     }
-
-
     .fa-bars{
         display:none !important;
         color:orange;
     }
+    /* ---------------------- Slideshow -------------------------------- */
 
+    #SoMe{
+        height:90vh;
+        width:100%;
+        margin:2rem 0 2rem 0;
+    }
+    #soMeh2 {
+        font-size: 70px;
+    }
+    #soMeText {
+        font-size: 25px;
+    }
+    .CTAgray{
+       margin-left:18vw;
+       margin-bottom:12%;
+    }
         /* Om os */
 
     /* Section 1 - fællesbillede */
