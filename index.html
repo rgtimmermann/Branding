@@ -16,16 +16,17 @@
       <a href="index.html">
         <img src="./IMG/LOGO_PAVO.svg" alt="Home">
       </a>
-      <ul id="myLinks">
+      <i class="fas fa-bars"></i>
+    </nav>
+    <nav class="mainnav">
+      <ul>
         <li class="border"><a href="#">SERVICES</a></li>
         <li><a href=>KLIENTER</a></li>
         <li><a href="./omos.html">OM OS</a></li>
       </ul>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
     </nav>
   </header>
+
   <main>
 
     <!-- Hero -->
@@ -107,6 +108,8 @@
           <p class="SoMeText">Ved hjælp af SEO optimering, vil din hjemmeside nemmere blive opdaget i forbindelse med google søgninger.<p>
           </div>
       </div>
+      <h2 id="IFSoMe">INFLUENCERS <br> & SoMe</h2>
+      <p id="SoMeText">Mangler du hjælp eller vejledning til de sociale medier, eller står du, og mangler den rigtige influencer til, at brande din virksomhed?</p>
       <a class="CTAgray" href="#">GÅ TIL</a>
     </section>
       <hr class="tyk2">
@@ -123,23 +126,34 @@
     <hr class="tynd">
       </hr> <!-- Linjen mellem sektionerne -->
 
+     
+
   </main>
 
-  <footer>
+  <script>
+    const navbarToggle = () => {
+    const nav = document.querySelector('.mainnav');
+    nav.classList.toggle('toggleShow');
+    }
+    document.querySelector('.fa-bars').addEventListener('click', navbarToggle);
+    </script>
 
+  <footer>
+    <ul>
+      <li><img class="SoMeLogo" src="IMG/FacebookLogo.png" alt="Facebook"></li>
+      <li><img class="SoMeLogo" src="IMG/InstaLogo.png" alt="Instagram"></li>
+      <li><img class="SoMeLogo" src="IMG/TwitterLogo.png" alt="Twitter"></li>
+    </ul>
+    <p>Pavo Media <br>
+      Havneparken 1, 6000 Kolding <br>
+      +45 72 11 81 00</p>
+    
+    
   </footer>
 
 
-  <script>
-    function myFunction() {
-      var x = document.getElementById("myLinks");
-      if (x.style.display === "block") {
-        x.style.display = "none";
-      } else {
-        x.style.display = "block";
-      }
-    }
-  </script>
+
+
 
 </body>
 
