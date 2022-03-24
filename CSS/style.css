@@ -96,7 +96,7 @@ p{
     max-width:210px;
     display:flex;
     margin: 0 auto;
-    padding-top: 25vh;
+    padding-top: 10vh;
     color:black;
 }
 
@@ -110,8 +110,10 @@ Klassen "overflow" er for at lave skarpe kanter på baggrundsbilledet*/
     display:flex;
     flex-direction:column;
     position:absolute;
-    top: 0;
+    top: 10%;
     left: 0;
+    justify-content: space-between;
+    max-height: 100vh;
 }
 
 #leadMsg{
@@ -261,8 +263,9 @@ h1{
     width: 20%;
     color: #707070;
     border: 3px solid #707070;
-    margin-top: 3%;
-    clear: both;   
+    margin-top: 3%;   
+    left: 0;
+    clear: both;
 }
 .tynd {
     height: 5%;
@@ -337,7 +340,20 @@ h2{
     "josephine" 
     "nicklas";
     margin: 3rem 10% 1rem 10%;
-    
+}
+.sophie, .rasmus, .josephine, .nicklas {
+    background-color: #f0f0f0;
+    margin: 6%;
+    text-align: center;
+    padding: 4% 0 4% 0;
+}
+.stillingBox {
+    background-color: #ffffff;
+    margin: 0 5% 0 5%;
+    padding: 2%;
+}
+.portræt {
+    width: 70%;
 }
 /* --------------------- Services --------------------------------------- */
 
@@ -345,7 +361,7 @@ h2{
     max-width:210px;
     display:flex;
     margin: 0 auto;
-    padding-top: 33vh;
+    padding-top: 10vh;
     color:black;
 }
 
@@ -577,6 +593,7 @@ h2{
     margin: 10px auto;
     padding: 5px 10px;
 }
+
 .tyk{
     width: 20%;
     background-color: #707070;
@@ -605,7 +622,6 @@ h2{
     border: 2px solid #707070;
     margin-bottom: 3%;
 }
-
 .tilbud {
     background-image: url(../IMG/abcd.png);
     background-size: cover;
@@ -690,7 +706,7 @@ footer ul{
 
 /*---------------------- Media Query for Desktop ---------------------------*/
 
-@media screen and (min-width:700px){
+@media screen and (min-width:1000px){
 /*---------------------- Header -----------------------------------------*/
     .navToggle{
         display:none;
@@ -751,7 +767,7 @@ footer ul{
     /* ---------------------------- HERO-------------------------------------------- */
     #HeroLogo{
         padding:0;
-        margin:15vw 0 0 100px;
+        margin:8vw 0 0 100px;
     }
     #leadMsg{
         margin:10vh 0 0 100px;
@@ -839,6 +855,9 @@ footer ul{
     h2{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size:40px;
+    }
+    #TeamHeading {
+        font-size: 30px;
     }
     .hverIsær{
         display:grid;
