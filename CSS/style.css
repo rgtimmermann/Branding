@@ -264,9 +264,10 @@ h1{
 }
     /*-------------------------- Instragram feed ----------------------------------------------------*/
     .instaVideo {
-        width: 60%;
+        width: 51%;
         display: block;
         margin: 0 auto;
+        height: auto;
     }
     #planlæg {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -280,6 +281,18 @@ h1{
         margin: 3%;
         margin-top: 1%;
     }
+/*---------------------- samarbejdspartnere ----------------------------------------------------- */
+#partner {
+ text-align: center;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#parterbillede {
+    object-fit: cover;
+    margin: 36px auto;
+    width: 50%;
+    display: block;
+
+}
 
 /*---------------------- Om Os siden ------------------------------------------------------------ */
 
@@ -557,7 +570,7 @@ h2{
     height: 30px;
     padding-left: 40px;
 }
-#skemaPris{
+.skemaPris{
     font-size: 15px;
     font-weight: bolder;
     color: #FF8900;
